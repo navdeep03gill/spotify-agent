@@ -48,7 +48,14 @@ spotify-agent/
    
    Note: If credentials are not set, the app will use mock data.
 
-4. Run the Flask server:
+4. (Optional) Enable debug mode for development:
+   ```bash
+   export FLASK_DEBUG=True
+   ```
+   
+   Note: Debug mode is disabled by default for security. Only enable for development.
+
+5. Run the Flask server:
    ```bash
    python app.py
    ```
